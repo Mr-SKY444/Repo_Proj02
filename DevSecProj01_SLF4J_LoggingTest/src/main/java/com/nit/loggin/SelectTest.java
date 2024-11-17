@@ -10,7 +10,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SelectTest {
-	
+	public void doMultiply(int a, int b)
+	{
+		System.out.println("Result is : "+a*b);
+	}
 	private static Logger logger=LoggerFactory.getLogger(SelectTest.class);
 	
 	public static void main(String[] args) {
