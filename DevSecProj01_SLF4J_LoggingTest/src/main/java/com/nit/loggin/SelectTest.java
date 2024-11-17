@@ -14,6 +14,10 @@ public class SelectTest {
 	{
 		System.out.println("Result is : "+a*b);
 	}
+	public void doSum(int a, int b)
+	{
+		System.out.println("Result is :"+a+b);
+	}
 	private static Logger logger=LoggerFactory.getLogger(SelectTest.class);
 	
 	public static void main(String[] args) {
